@@ -66,8 +66,8 @@ public class ColaSinLibreria {
     public static void main(String[] args) {
         ColaSinLibreria cola = new ColaSinLibreria(5);
         cola.encolar(10);
-        cola.encolar(20);
-        cola.encolar(30);
+        cola.encolar(11);
+        cola.encolar(12);
         cola.mostrarCola();
 
         System.out.println("Desencolado: " + cola.desencolar());

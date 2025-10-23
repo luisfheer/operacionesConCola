@@ -10,8 +10,8 @@ public class ColaConLibreria {
         Queue<Integer> cola = new ArrayDeque<>();
 
         cola.add(10);
-        cola.add(20);
-        cola.add(30);
+        cola.add(11);
+        cola.add(12);
         System.out.println("Cola: " + cola);
 
         System.out.println("Desencolado: " + cola.remove());
